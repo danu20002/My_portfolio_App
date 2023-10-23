@@ -9,7 +9,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#E33A05">
+        android:background="#0226ED">
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -21,6 +21,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="About Me"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    />
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="150dp"
                     android:layout_height="150dp"
@@ -38,6 +47,15 @@
                     android:textSize="35sp"
                     android:textStyle="bold"
                     />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+                    android:textSize="20sp"
+                    android:text="Android Developer"
+                      android:textAlignment="center"
+                    android:textColor="#117BCF"
+                    android:layout_margin="5dp"/>
             </androidx.appcompat.widget.LinearLayoutCompat>
 
 
